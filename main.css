@@ -1,0 +1,20 @@
+#calendar {
+  margin: 20px;
+}
+.month {
+  margin-right: 8px;
+}
+.month-name {
+  font-size: 85%;
+  fill: rgb(218, 132, 132);
+  font-family: "Lucida Console", Monaco, monospace
+}
+
+.day.hover {
+  stroke: #6d6E70;
+  stroke-width: 2;
+}
+.day.focus {
+  stroke: #ffff33;
+  stroke-width: 2;
+}
